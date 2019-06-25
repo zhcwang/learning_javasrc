@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06838e4b-9154-4a39-b0d6-bacb798b29bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learning/java/source/concurrent/collections/SynchronousQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/java/source/concurrent/util/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/java/source/concurrent/util/CyclicBarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/java/source/concurrent/util/SemaphoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/CollectionsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/List/ArrayListDemo$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/List/ArrayListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/List/LinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/List/PriorityQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/HashMapTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/HashMapTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/HashMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/PropertiesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/TreeMapTest$TestPojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/TreeMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/store.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/store.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/store1.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/map/test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/set/EnumSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/set/Fruits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/set/HashSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/set/TreeSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/collections/set/Vegetables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/concurrent/collections/DelayQueueTest$DelayEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/concurrent/collections/DelayQueueTest$DelayTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/concurrent/collections/DelayQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/concurrent/collections/PriorityBlockingQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javasrc/learning/java/source/concurrent/locks/ConditionTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,147 +17,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ArrayBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <file leaf-file-name="CountDownLatchTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/util/CountDownLatchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynchronousQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/collections/SynchronousQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="342">
+              <caret line="52" lean-forward="true" selection-start-line="14" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1729#1737#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SynchronousQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <file leaf-file-name="CyclicBarrierTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/util/CyclicBarrierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+            <state relative-caret-position="213">
+              <caret line="14" selection-start-line="14" selection-end-line="52" selection-end-column="1" />
               <folding>
-                <element signature="e#34990#34991#0" expanded="true" />
-                <element signature="e#35017#35018#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/learning/java/source/collections/List/LinkedListDemo.java">
+      <file leaf-file-name="SemaphoreTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/util/SemaphoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcurrentSkipListMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
+      <file leaf-file-name="Semaphore.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Semaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="384" column="63" selection-start-line="384" selection-start-column="50" selection-end-line="384" selection-end-column="63" />
+            <state relative-caret-position="194">
+              <caret line="466" column="29" selection-start-line="466" selection-start-column="13" selection-end-line="466" selection-end-column="39" />
+              <folding>
+                <element signature="e#15885#15886#0" expanded="true" />
+                <element signature="e#15922#15923#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/java.util.concurrent.ConcurrentMap" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/java.util.concurrent.ConcurrentMap">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>java.util.concurrent.ConcurrentMap</OriginalElement>
-              <nodes>
-                <node x="306.15624999999994" y="288.0">java.util.concurrent.ConcurrentSkipListMap</node>
-                <node x="0.0" y="288.0">java.util.concurrent.ConcurrentSkipListMap.SubMap</node>
-                <node x="41.125" y="192.0">java.util.concurrent.ConcurrentNavigableMap</node>
-                <node x="286.0" y="0.0">java.util.Map</node>
-                <node x="358.125" y="192.0">java.util.concurrent.ConcurrentHashMap</node>
-                <node x="237.99999999999997" y="96.0">java.util.concurrent.ConcurrentMap</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="java.util.concurrent.ConcurrentNavigableMap" target="java.util.Map">
-                  <point x="-74.25" y="-23.0" />
-                  <point x="115.375" y="167.0" />
-                  <point x="159.65624999999994" y="167.0" />
-                  <point x="159.65624999999994" y="76.0" />
-                  <point x="319.9" y="76.0" />
-                  <point x="-22.600000000000023" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentSkipListMap" target="java.util.Map">
-                  <point x="68.74999999999999" y="-23.0" />
-                  <point x="512.40625" y="263.0" />
-                  <point x="620.625" y="263.0" />
-                  <point x="620.625" y="66.0" />
-                  <point x="387.69999999999993" y="66.0" />
-                  <point x="45.19999999999999" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentMap" target="java.util.Map">
-                  <point x="0.0" y="-23.0" />
-                  <point x="0.0" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentHashMap" target="java.util.concurrent.ConcurrentMap">
-                  <point x="-63.0" y="-23.0" />
-                  <point x="421.125" y="167.0" />
-                  <point x="394.75" y="167.0" />
-                  <point x="52.25" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentSkipListMap" target="java.util.concurrent.ConcurrentNavigableMap">
-                  <point x="-68.75" y="-23.0" />
-                  <point x="374.90624999999994" y="263.0" />
-                  <point x="263.875" y="263.0" />
-                  <point x="74.25" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentHashMap" target="java.util.Map">
-                  <point x="63.0" y="-23.0" />
-                  <point x="547.125" y="167.0" />
-                  <point x="516.90625" y="167.0" />
-                  <point x="516.90625" y="76.0" />
-                  <point x="365.1" y="76.0" />
-                  <point x="22.600000000000023" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentNavigableMap" target="java.util.concurrent.ConcurrentMap">
-                  <point x="74.25" y="-23.0" />
-                  <point x="263.875" y="167.0" />
-                  <point x="290.25" y="167.0" />
-                  <point x="-52.25" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap" target="java.util.concurrent.ConcurrentNavigableMap">
-                  <point x="36.5" y="-23.0" />
-                  <point x="109.5" y="263.0" />
-                  <point x="115.375" y="263.0" />
-                  <point x="-74.25" y="23.0" />
-                </edge>
-                <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap" target="java.util.Map">
-                  <point x="-36.5" y="-23.0" />
-                  <point x="36.5" y="263.0" />
-                  <point x="30.625" y="263.0" />
-                  <point x="30.625" y="66.0" />
-                  <point x="297.29999999999995" y="66.0" />
-                  <point x="-45.19999999999999" y="23.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-346.5" y="-60.0" />
-              <SelectedNodes>
-                <node>java.util.concurrent.ConcurrentMap</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="1298" column="22" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
+              <folding>
+                <element signature="e#22675#22676#0" expanded="true" />
+                <element signature="e#22703#22704#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,7 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sync</find>
       <find>hashCode</find>
       <find>afterNodeRemoval</find>
       <find>keyset</find>
@@ -223,10 +120,11 @@
       <find>LinkedList</find>
       <find>peek</find>
       <find>PriorityBlockingQueue</find>
-      <find>transfer</find>
       <find>unsafe</find>
       <find>add</find>
       <find>AbstractQueuedSynchronizer</find>
+      <find>transfer</find>
+      <find>--count</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -255,6 +153,9 @@
         <option value="$PROJECT_DIR$/src/learning/java/source/concurrent/collections/PriorityBlockingQueueTest.java" />
         <option value="$PROJECT_DIR$/src/learning/java/source/concurrent/collections/DelayQueueTest.java" />
         <option value="$PROJECT_DIR$/src/learning/java/source/concurrent/collections/SynchronousQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/learning/java/source/concurrent/util/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/learning/java/source/concurrent/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/src/learning/java/source/concurrent/util/SemaphoreTest.java" />
       </list>
     </option>
   </component>
@@ -268,12 +169,14 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="620" />
-    <option name="y" value="137" />
+    <option name="x" value="402" />
+    <option name="y" value="117" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -333,38 +236,6 @@
               <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javasrc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedListDemo" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javasrc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
-              <item name="PriorityQueueTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javasrc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -375,7 +246,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
@@ -385,8 +256,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="DelayQueueTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="CountDownLatchTest" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
@@ -396,8 +267,43 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="PriorityBlockingQueueTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="CountDownLatchTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="WaitForTheLast" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javasrc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="CyclicBarrierTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javasrc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="SemaphoreTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javasrc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="SemaphoreTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="SemaphoreThread" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
@@ -437,6 +343,89 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="locks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="locks" type="462c0819:PsiDirectoryNode" />
+              <item name="AbstractQueuedSynchronizer" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="CountDownLatch" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="CountDownLatch" type="1a9f42e2:ClassTreeNode" />
+              <item name="Sync" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="CyclicBarrier" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="Future" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="Semaphore" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="Semaphore" type="1a9f42e2:ClassTreeNode" />
+              <item name="FairSync" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
@@ -446,6 +435,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javasrc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -474,14 +472,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronousQueueTest">
-    <configuration name="ConditionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.java.source.concurrent.locks.ConditionTest" />
+  <component name="RunManager" selected="Application.SemaphoreTest">
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.java.source.concurrent.util.CountDownLatchTest" />
       <module name="javasrc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.java.source.concurrent.locks.*" />
+          <option name="PATTERN" value="learning.java.source.concurrent.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.java.source.concurrent.util.CyclicBarrierTest" />
+      <module name="javasrc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.java.source.concurrent.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -497,24 +506,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EnumSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.java.source.collections.set.EnumSetTest" />
+    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.java.source.concurrent.util.SemaphoreTest" />
       <module name="javasrc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.java.source.collections.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.java.source.collections.List.PriorityQueueTest" />
-      <module name="javasrc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.java.source.collections.List.*" />
+          <option name="PATTERN" value="learning.java.source.concurrent.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -572,19 +570,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.EnumSetTest" />
-      <item itemvalue="Application.ConditionTest" />
-      <item itemvalue="Application.PriorityQueueTest" />
       <item itemvalue="Application.DelayQueueTest" />
       <item itemvalue="Application.SynchronousQueueTest" />
+      <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.CyclicBarrierTest" />
+      <item itemvalue="Application.SemaphoreTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreTest" />
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.SynchronousQueueTest" />
         <item itemvalue="Application.DelayQueueTest" />
-        <item itemvalue="Application.PriorityQueueTest" />
-        <item itemvalue="Application.ConditionTest" />
-        <item itemvalue="Application.EnumSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -603,19 +601,20 @@
       <workItem from="1555739530510" duration="15993000" />
       <workItem from="1556861527965" duration="44519000" />
       <workItem from="1561188541982" duration="1109000" />
-      <workItem from="1561285030665" duration="5658000" />
+      <workItem from="1561285030665" duration="14211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76089000" />
+    <option name="totallyTimeSpent" value="84642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="15" width="1936" height="1008" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280543" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32802936" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -623,12 +622,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35714287" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2734289" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35618114" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2729498" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2537797" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.29217198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -641,18 +641,17 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.3296582" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.29217198" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3296582" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35714287" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35618114" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29217198" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2537797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2537797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -670,7 +669,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3280543" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32802936" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -707,175 +706,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/collections/map/store.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/collections/map/store.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="1443" column="28" lean-forward="true" selection-start-line="1443" selection-start-column="28" selection-end-line="1443" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="652" column="11" selection-start-line="652" selection-start-column="11" selection-end-line="652" selection-end-column="11" />
-          <folding>
-            <element signature="e#21824#21868#0" expanded="true" />
-            <element signature="e#33104#33105#0" expanded="true" />
-            <element signature="e#33178#33179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/lang/reflect/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/collections/map/PropertiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/collections/CollectionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="239" column="40" selection-start-line="239" selection-start-column="40" selection-end-line="239" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="5510" column="40" lean-forward="true" selection-start-line="5510" selection-start-column="40" selection-end-line="5510" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/collections/set/EnumSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="123" column="33" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="160" column="44" selection-start-line="160" selection-start-column="44" selection-end-line="160" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/LinkedHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="109" column="31" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.Callable">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.Callable</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="48.0" y="96.0">java.util.concurrent.Callable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.util.concurrent.Callable" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-23.0" />
-              <point x="0.0" y="23.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-347.0" y="39.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/lang/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/lang/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -917,16 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/locks/ConditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,17 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/SynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-          <folding>
-            <element signature="e#34990#34991#0" expanded="true" />
-            <element signature="e#35017#35018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1033,51 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/collections/DelayQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/collections/SynchronousQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1729#1737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="68" column="2" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="384" column="63" selection-start-line="384" selection-start-column="50" selection-end-line="384" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentSkipListSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="104" column="40" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1167,17 +935,494 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/locks/ConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/collections/SynchronousQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1729#1737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/LinkedTransferQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="179" column="23" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Phaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3459">
+          <caret line="260" column="13" selection-start-line="260" selection-start-column="13" selection-end-line="260" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/learning/java/source/collections/List/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/TransferQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+          <folding>
+            <element signature="e#34990#34991#0" expanded="true" />
+            <element signature="e#35017#35018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/collections/DelayQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentSkipListSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="104" column="40" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/CopyOnWriteArraySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="85" column="2" lean-forward="true" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.BlockingQueue">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.BlockingQueue</OriginalElement>
+          <nodes>
+            <node x="0.0" y="560.0">java.util.concurrent.LinkedTransferQueue</node>
+            <node x="1027.1841085271317" y="464.0">java.util.concurrent.BlockingDeque</node>
+            <node x="1819.1841085271317" y="464.0">java.util.concurrent.SynchronousQueue</node>
+            <node x="970.8091085271317" y="96.0">java.util.Collection</node>
+            <node x="818.4341085271317" y="338.0">java.util.concurrent.BlockingQueue</node>
+            <node x="808.1841085271317" y="464.0">java.util.concurrent.TransferQueue</node>
+            <node x="1251.1841085271317" y="464.0">java.util.concurrent.LinkedBlockingQueue</node>
+            <node x="980.8091085271317" y="0.0">java.lang.Iterable</node>
+            <node x="1532.1841085271317" y="464.0">java.util.concurrent.PriorityBlockingQueue</node>
+            <node x="71.18410852713168" y="464.0">java.util.concurrent.ArrayBlockingQueue</node>
+            <node x="541.1841085271317" y="464.0">java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue</node>
+            <node x="1868.9098837209303" y="560.0">java.util.concurrent.LinkedBlockingDeque</node>
+            <node x="342.1841085271317" y="464.0">java.util.concurrent.DelayQueue</node>
+            <node x="985.3091085271317" y="212.0">java.util.Queue</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="1665.6841085271317" y="298.0" />
+              <point x="1082.8091085271317" y="298.0" />
+              <point x="32.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="-80.0" y="-23.0" />
+              <point x="1859.1841085271317" y="404.0" />
+              <point x="1009.6841085271317" y="404.0" />
+              <point x="89.25" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="82.33333333333326" y="-23.0" />
+              <point x="747.0174418604649" y="444.0" />
+              <point x="882.1841085271317" y="444.0" />
+              <point x="-38.25" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.Collection">
+              <point x="89.0" y="-23.0" />
+              <point x="1754.6841085271317" y="434.0" />
+              <point x="2091.6841085271317" y="434.0" />
+              <point x="2091.6841085271317" y="182.0" />
+              <point x="1085.642441860465" y="182.0" />
+              <point x="35.33333333333326" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.Collection">
+              <point x="-85.33333333333326" y="-23.0" />
+              <point x="42.66666666666674" y="535.0" />
+              <point x="16.684108527131684" y="535.0" />
+              <point x="16.684108527131684" y="162.0" />
+              <point x="979.6424418604652" y="162.0" />
+              <point x="-70.66666666666663" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="128.0" y="535.0" />
+              <point x="60.684108527131684" y="535.0" />
+              <point x="60.684108527131684" y="278.0" />
+              <point x="991.8091085271317" y="278.0" />
+              <point x="-58.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="83.66666666666674" y="-23.0" />
+              <point x="280.3507751937984" y="424.0" />
+              <point x="831.1841085271317" y="424.0" />
+              <point x="-89.25" y="23.0" />
+            </edge>
+            <edge source="java.util.Queue" target="java.util.Collection">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.Collection">
+              <point x="80.0" y="-23.0" />
+              <point x="2019.1841085271317" y="444.0" />
+              <point x="2102.6841085271317" y="444.0" />
+              <point x="2102.6841085271317" y="172.0" />
+              <point x="1103.3091085271317" y="172.0" />
+              <point x="53.0" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.concurrent.TransferQueue">
+              <point x="85.33333333333348" y="-23.0" />
+              <point x="213.33333333333348" y="535.0" />
+              <point x="907.6841085271317" y="535.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.SynchronousQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="1939.1841085271317" y="288.0" />
+              <point x="1095.8091085271317" y="288.0" />
+              <point x="45.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="664.6841085271317" y="308.0" />
+              <point x="1030.8091085271317" y="308.0" />
+              <point x="-19.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="-89.0" y="-23.0" />
+              <point x="1576.6841085271317" y="414.0" />
+              <point x="984.1841085271317" y="414.0" />
+              <point x="63.75" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="196.68410852713168" y="288.0" />
+              <point x="1004.8091085271317" y="288.0" />
+              <point x="-45.5" y="23.0" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.BlockingDeque" target="java.util.Queue">
+              <point x="51.0" y="-23.0" />
+              <point x="1180.1841085271317" y="318.0" />
+              <point x="1056.8091085271317" y="318.0" />
+              <point x="6.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.BlockingDeque" target="java.util.concurrent.BlockingQueue">
+              <point x="-51.0" y="-23.0" />
+              <point x="1078.1841085271317" y="444.0" />
+              <point x="933.1841085271317" y="444.0" />
+              <point x="12.75" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="920.4341085271317" y="318.0" />
+              <point x="1043.8091085271317" y="318.0" />
+              <point x="-6.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.Collection">
+              <point x="87.0" y="-23.0" />
+              <point x="1468.6841085271317" y="424.0" />
+              <point x="2080.6841085271317" y="424.0" />
+              <point x="2080.6841085271317" y="192.0" />
+              <point x="1067.9757751937984" y="192.0" />
+              <point x="17.666666666666742" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.TransferQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="0.0" y="-23.0" />
+              <point x="-12.75" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.Collection">
+              <point x="87.00000000000011" y="-23.0" />
+              <point x="2086.4098837209303" y="535.0" />
+              <point x="2113.6841085271317" y="535.0" />
+              <point x="2113.6841085271317" y="162.0" />
+              <point x="1120.9757751937984" y="162.0" />
+              <point x="70.66666666666674" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.concurrent.BlockingDeque">
+              <point x="-87.0" y="-23.0" />
+              <point x="1912.4098837209303" y="535.0" />
+              <point x="1129.1841085271317" y="535.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="1999.4098837209303" y="535.0" />
+              <point x="2069.6841085271317" y="535.0" />
+              <point x="2069.6841085271317" y="278.0" />
+              <point x="1108.8091085271317" y="278.0" />
+              <point x="58.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.DelayQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="431.6841085271317" y="298.0" />
+              <point x="1017.8091085271317" y="298.0" />
+              <point x="-32.5" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.Collection">
+              <point x="-83.66666666666674" y="-23.0" />
+              <point x="113.01744186046494" y="444.0" />
+              <point x="27.684108527131684" y="444.0" />
+              <point x="27.684108527131684" y="172.0" />
+              <point x="997.3091085271317" y="172.0" />
+              <point x="-53.0" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.DelayQueue" target="java.util.Collection">
+              <point x="-59.66666666666674" y="-23.0" />
+              <point x="372.01744186046494" y="414.0" />
+              <point x="38.684108527131684" y="414.0" />
+              <point x="38.684108527131684" y="182.0" />
+              <point x="1014.9757751937984" y="182.0" />
+              <point x="-35.33333333333326" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.DelayQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="59.66666666666674" y="-23.0" />
+              <point x="491.3507751937984" y="434.0" />
+              <point x="856.6841085271317" y="434.0" />
+              <point x="-63.75" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue" target="java.util.Collection">
+              <point x="-82.33333333333326" y="-23.0" />
+              <point x="582.3507751937984" y="404.0" />
+              <point x="49.684108527131684" y="404.0" />
+              <point x="49.684108527131684" y="192.0" />
+              <point x="1032.642441860465" y="192.0" />
+              <point x="-17.666666666666742" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.concurrent.BlockingQueue">
+              <point x="-87.0" y="-23.0" />
+              <point x="1294.6841085271317" y="434.0" />
+              <point x="958.6841085271317" y="434.0" />
+              <point x="38.25" y="23.0" />
+            </edge>
+            <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.Queue">
+              <point x="0.0" y="-23.0" />
+              <point x="1381.6841085271317" y="308.0" />
+              <point x="1069.8091085271317" y="308.0" />
+              <point x="19.5" y="23.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8" x="264.3888888888889" y="130.69841269841265" />
+          <SelectedNodes>
+            <node>java.lang.Iterable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="115" column="34" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="91" column="24" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="1196" column="11" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.ExecutorService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.ExecutorService</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.AbstractExecutorService</node>
+            <node x="" y="">sun.awt.shell.Win32ShellFolderManager2.ComInvoker</node>
+            <node x="" y="">java.util.concurrent.ThreadPoolExecutor</node>
+            <node x="" y="">java.util.concurrent.Executor</node>
+            <node x="" y="">java.util.concurrent.ForkJoinPool</node>
+            <node x="" y="">java.util.concurrent.Executors.DelegatedExecutorService</node>
+            <node x="" y="">com.sun.javafx.tk.quantum.QuantumRenderer</node>
+            <node x="" y="">java.util.concurrent.Executors.FinalizableDelegatedExecutorService</node>
+            <node x="" y="">java.util.concurrent.ScheduledExecutorService</node>
+            <node x="" y="">java.util.concurrent.ScheduledThreadPoolExecutor</node>
+            <node x="" y="">java.util.concurrent.ExecutorService</node>
+            <node x="" y="">java.util.concurrent.Executors.DelegatedScheduledExecutorService</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="906.0" y="318.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="136" column="25" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Exchanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4796">
+          <caret line="312" column="30" selection-start-line="312" selection-start-column="24" selection-end-line="312" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="90" column="16" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="107" column="2" lean-forward="true" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
+          <folding>
+            <element signature="e#5294#5295#0" expanded="true" />
+            <element signature="e#5335#5336#0" expanded="true" />
+            <element signature="e#10139#10140#0" expanded="true" />
+            <element signature="e#10177#10178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="255" column="32" selection-start-line="255" selection-start-column="20" selection-end-line="255" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1298" column="22" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
+          <folding>
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="466" column="29" selection-start-line="466" selection-start-column="13" selection-end-line="466" selection-end-column="39" />
+          <folding>
+            <element signature="e#15885#15886#0" expanded="true" />
+            <element signature="e#15922#15923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/util/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="52" lean-forward="true" selection-start-line="14" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/util/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="14" selection-start-line="14" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learning/java/source/concurrent/util/SemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
